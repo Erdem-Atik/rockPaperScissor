@@ -59,7 +59,7 @@ function addSelectionResult(selection, winner) {
 }
 
 function isWinner(selection, opponentSelection) {
-  return selection.beats === opponentSelection.name;
+  return selection.beats === opponentSelection.name; // check who winner as regards computer selection or your selection object's property
 }
 
 function randomSelection() {
